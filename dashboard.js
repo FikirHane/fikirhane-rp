@@ -3,6 +3,7 @@
 const firebaseConfig = {
     apiKey: "AIzaSyCrNZdDutiPXmZ1SyIJ76TwR2xpvDnU2vY",
     authDomain: "fikirhane-rp.firebaseapp.com",
+    databaseURL: "https://fikirhane-rp-default-rtdb.europe-west1.firebasedatabase.app/",
     projectId: "fikirhane-rp",
     storageBucket: "fikirhane-rp.firebasestorage.app",
     messagingSenderId: "212538739706",
