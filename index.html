@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>FikirHane RP - Bilimle Yüksel!</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🔬 FikirHane RP</h1>
+    <p>Bilgiyle Yükselen Anadolu'ya Hoş Geldin!</p>
+    <input type="text" id="playerName" placeholder="Bilim İnsanı Adını Yaz">
+    <button onclick="login()">Giriş Yap</button>
+
+    <div id="gameArea" style="display:none;">
+      <h2>Hoş geldin, <span id="showName"></span></h2>
+      <button onclick="earnPoint()">+1 Bilimsel Çalışma Yap</button>
+      <p>Bilim Puanın: <span id="score">0</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
