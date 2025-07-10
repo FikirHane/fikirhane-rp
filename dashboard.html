@@ -2,7 +2,7 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
-  <title>FikirHane RP - Giriş</title>
+  <title>FikirHane RP - Kontrol Paneli</title>
   <link rel="stylesheet" href="style.css" />
   <!-- Firebase -->
   <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
@@ -10,13 +10,12 @@
 </head>
 <body>
   <div class="container">
-    <h1>🔬 FikirHane RP</h1>
-    <p>Bilimle Yükselen Anadolu'ya Hoş Geldin!</p>
-    <input type="text" id="playerName" placeholder="Bilim İnsanı Adı">
-    <input type="email" id="playerEmail" placeholder="E-posta adresi">
-    <button onclick="login()">Giriş Yap</button>
+    <h2>Hoş geldin, <span id="showName"></span> 👋</h2>
+    <p>E-posta: <span id="showEmail"></span></p>
+    <button onclick="earnPoint()">+1 Bilimsel Çalışma Yap</button>
+    <p>Bilim Puanın: <span id="score">0</span></p>
   </div>
 
-  <script src="script.js"></script>
+  <script src="dashboard.js"></script>
 </body>
 </html>
